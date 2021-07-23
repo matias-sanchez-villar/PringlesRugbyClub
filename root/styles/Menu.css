@@ -1,0 +1,25 @@
+/*
+    *Este primer estilo es momentaneo
+    *Logos feos
+*/
+img{
+    height: 100px;
+}
+
+.MenuNav{
+    background: rgb(223, 223, 226);
+}
+
+.MenuNav li a{
+    color: rgb(0, 5, 69);
+}
+
+h1{
+    color: rgb(0, 5, 69);
+}
+
+/*
+    *   El Amarillo es 240, 201, 36
+    *   El Azul es 0, 5, 69
+    *   el restantes es negro
+*/
