@@ -1,0 +1,67 @@
+/*
+    *   El Amarillo es 240, 201, 36
+    *   El Azul es 0, 5, 69
+    *   el restantes es negro
+*/
+
+/* -- SETTINGS -- */
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-size: 62.5%; /* 1 rem 10px */
+}
+
+a{
+    text-decoration: none;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* -- MENU -- */
+
+header{
+
+}
+
+/* Estilo a los logos (Carnero y redes sociales) */
+header a{
+
+}
+
+header a img{
+
+}
+
+/* Estilo al menu de listas */
+
+header nav{
+
+}
+
+header nav ul{
+
+}
+
+header nav ul li{
+
+}
+
+header nav ul li a{
+
+}
+
+/* -- FOOTER -- */
+
+footer{
+
+}
+
+footer article{
+
+}
