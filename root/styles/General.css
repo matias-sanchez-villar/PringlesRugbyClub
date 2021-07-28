@@ -4,6 +4,12 @@
     *   el restantes es negro
 */
 
+/*
+    * LETRA
+    * font-family: 'Montserrat', sans-serif;
+    * 
+*/
+
 /* -- SETTINGS -- */
 
 *{
@@ -12,7 +18,7 @@
 }
 
 body{
-    font-size: 62.5%; /* 1 rem 10px */
+    font-size: 62.5%; /* 1 em 10px */
 }
 
 a{
@@ -26,7 +32,7 @@ ul{
 /* -- MENU -- */
 
 header{
-
+    
 }
 
 /* Estilo a los logos (Carnero y redes sociales) */
@@ -36,6 +42,14 @@ header a{
 
 header a img{
 
+}
+
+.Logo{
+    width: 18em;
+}
+
+.RedSocial{
+    width:6em;
 }
 
 /* Estilo al menu de listas */
@@ -53,7 +67,18 @@ header nav ul li{
 }
 
 header nav ul li a{
+    color: rgb(0, 5, 65);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    box-shadow: inset 0 -1.3px rgba(240, 203, 36, 0.753);
+}
 
+header nav ul li a:hover{
+    font-size: 2.1rem; /* -- esta es muy probable que se lo quite -- */
+    box-shadow: inset 0 -2px rgba(240, 203, 36, 0.849);
 }
 
 /* -- FOOTER -- */
