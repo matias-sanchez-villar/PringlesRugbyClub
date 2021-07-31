@@ -32,14 +32,26 @@ ul{
 /* -- MENU -- */
 
 header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    align-content: center;
+    
     position: sticky;
     top: 0;
+    
+    background: rgba( 255, 255, 255, 0.35 );
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.089);
+    backdrop-filter: blur( 6.5px );
+    -webkit-backdrop-filter: blur( 6.5px );
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+
     padding: 1.5em;
 }
 
 /* Estilo a los logos (Carnero y redes sociales) */
 header a{
-    
+
 }
 
 header a img{
@@ -50,7 +62,7 @@ header a img{
 /* Estilo al menu de listas */
 
 header nav{
-
+    display: inline-block;
 }
 
 header nav ul{
@@ -74,20 +86,57 @@ header nav ul li a{
 
 header nav ul li a:hover{
     box-shadow: inset 0 -2px rgba(240, 203, 36, 0.849);
+    color: rgba(0, 6, 56, 0.808);
+}
+
+/* Estilo DIV redes sociales */
+
+header div{
+    display: inline-block;
 }
 
 /* -- MAIN -- */
 
 main{
-    
+    margin-top: 3em;
 }
 
 /* -- FOOTER -- */
 
 footer{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+
+    color: rgb(0, 5, 65);
+    background: rgba(240, 203, 36, 0.849);
 
 }
 
 footer article{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer article a img{
+    width: 5em;
+    padding: 0 1em 0 1em;
+}
+
+/* -- Primer Article -- */
+
+.FooterNav{
+
+}
+
+/* -- Segundo Article -- */
+
+.FooterContact{
+
+}
+
+/* -- Tercero Article -- */
+
+.FooterPresentacion{
 
 }
