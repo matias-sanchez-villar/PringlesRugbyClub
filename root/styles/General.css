@@ -62,7 +62,7 @@ header a img{
 /* Estilo al menu de listas */
 
 header nav{
-    display: inline-block;
+    
 }
 
 header nav ul{
@@ -108,8 +108,11 @@ footer{
     grid-template-columns: repeat(3, 1fr);
 
     color: rgb(0, 5, 65);
+    font-family: 'Montserrat', sans-serif;
+    
     background: rgba(240, 203, 36, 0.849);
 
+    padding: 2em 0;
 }
 
 footer article{
@@ -126,17 +129,82 @@ footer article a img{
 /* -- Primer Article -- */
 
 .FooterNav{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+/* menu de navegacion footer */
+
+.FooterNav ul{
+}
+
+.FooterNav ul li{
+    padding: 0.5em 0;
+}
+
+.FooterNav ul li a{
+    color: rgb(0, 5, 65);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+    
+}
+
+.FooterNav ul li a:hover{
+    color: rgb(10, 11, 31);
+    font-weight: 700;
+    
 }
 
 /* -- Segundo Article -- */
 
 .FooterContact{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
 
+.FooterContact div{
+    padding: 1em 0;
+}
+
+.FooterContact div i{
+    font-size: 3em;
+}
+
+.FooterContact div p{
+    display: inline-block;
+
+    font-size: 2em;
+    font-weight: 600;
+
+    padding: 0 0.5em;
+}
+
+/* Copyrigth */
+
+.FooterContact p{
+    padding: 0.5em 0;
+
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 /* -- Tercero Article -- */
 
 .FooterPresentacion{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 
+}
+
+.FooterPresentacion div{
+    padding: 1em 0;
 }
