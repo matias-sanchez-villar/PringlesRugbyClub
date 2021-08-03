@@ -1,0 +1,113 @@
+/* -- Seccion Contacto -> (Form y Mapa) -- */
+
+.Contacto{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+
+    padding: 2em;
+}
+
+.Contacto article{
+    width: 45%;
+}
+
+/* -- Form Contact -- */
+
+.Contacto article:first-child{
+    
+}
+
+.Contacto article H1{
+    text-align: center;
+    color: rgb(0, 5, 65);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+
+    padding: 1em;
+}
+
+.Contacto form{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: minmax(9em, auto);
+}
+
+.Contacto form input{
+    margin: 1em;
+    padding: 0.7em;
+    
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+
+}
+
+/* input detallados */
+
+#txtDescripcion{
+    grid-row: 2 / 4;
+}
+
+#btnEnviar{
+    grid-column: 1 / 3;
+
+    border-radius: 25em;
+
+    background: #2d7db5d4;
+    color: #ffffff;
+    border: none;
+
+    font-size: 1.7em;
+    font-weight: 700;
+}
+
+#btnEnviar:hover{
+    background: #2b7db8f3;
+}
+
+
+/* -- Mapa Contacto -- */
+
+.Contacto article:last-child{
+    
+}
+
+.Contacto h2{
+    text-align: center;
+    color: rgb(0, 5, 65);
+    font-size: 2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em;
+
+    padding: 1em;
+}
+
+.Contacto iframe{
+    height: 25em;
+    width: 100%;
+
+    border: 1px solid black;
+}
+
+.Contacto h3{
+    padding: 1em 0;
+
+    color: rgb(0, 5, 65);
+    font-size: 1.4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
+    letter-spacing: 0.1em
+}
+
+.Contacto p{
+    color: rgb(0, 5, 65);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 500;
+    letter-spacing: 0.1em
+}

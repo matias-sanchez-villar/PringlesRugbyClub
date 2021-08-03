@@ -9,7 +9,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,800;1,200;1,300;1,400;1,500;1,600;1,800&display=swap" rel="stylesheet">
-     
 
     <link rel="stylesheet" type="text/css" href="../styles/General.css">
     <link rel="stylesheet" type="text/css" href="../styles/Contacto.css">
@@ -18,8 +17,8 @@
 <body>
 
     <header>
-        <a href="../index.html"><img src="../assets/img/CarneroLineas.svg" alt="Logo Instituto" class="Logo"></a>
-        <nav class="MenuNav">
+        <a href="index.html"><img src="../assets/img/CarneroLineas.svg" alt="Logo Instituto" class="Logo"></a>
+        <nav>
             <ul>
                 <li><a href="../index.html">Incio</a></li>
                 <li><a href="Historia.html">Historia</a></li>
@@ -28,67 +27,75 @@
                 <li><a href="Contacto.html">Contacto</a></li>
             </ul>
         </nav>
-        <a href="https://www.facebook.com/pringlesrubgbyclub/" target="_blank"><img src="../assets/img/facebook.svg" alt="Logo Facebook" class="RedSocial"></a>
-        <a href="https://www.instagram.com/pringlesrugbyclub/?hl=es-la" target="_blank"><img src="../assets/img/instagram.svg" alt="Logo Instagram" class="RedSocial"></a>
-        <a href="https://twitter.com/pringlesrugby" target="_blank"><img src="../assets/img/twitter.svg" alt="Logo Twitter" class="RedSocial"></a>
+        <div>
+            <a href="https://www.facebook.com/pringlesrubgbyclub/" target="_blank"><img src="../assets/img/facebook.svg" alt="Logo Facebook" class="RedSocial"></a>
+            <a href="https://www.instagram.com/pringlesrugbyclub/?hl=es-la" target="_blank"><img src="../assets/img/instagram.svg" alt="Logo Instagram" class="RedSocial"></a>
+            <a href="https://twitter.com/pringlesrugby" target="_blank"><img src="../assets/img/twitter.svg" alt="Logo Twitter" class="RedSocial"></a>
+        </div>
     </header>
     
     <!-- tal vez aca le ponga una intro -->
     <main>
-        <section>
-
+        <section class="Contacto">
             <article>
                 <h1>Contacto</h1>
                 <form action="" method="POST">
-                    <input type="text" name="Nombre" placeholder="Nombre">
-                    <input type="email" name="Apellido" placeholder="Email">
-                    <input type="text" name="Asunto" placeholder="Asunto">
-                    <input type="textarea" name="Descripcion">
-                    <input type="button" value="Enviar">
+                    <input type="text" name="Nombre" placeholder="Nombre" id="txtNombre">
+                    <input type="text" name="Apellido" placeholder="Apellido" id="txtApellido">
+                    <input type="email" name="Apellido" placeholder="Email" id="txtEmail">
+                    <input type="text" name="Asunto" placeholder="Asunto" id="txtAsunto">
+                    <input type="textarea" name="Descripcion" placeholder="Descripcion" id="txtDescripcion">
+                    <input type="button" value="Enviar" id="btnEnviar">
                 </form>
             </article>
-            
             <article>
                 <h2>Ubicacion</h2>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.183330596899!2d-61.348311384676705!3d-37.97285067972395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eccb233751d057%3A0xfdadcd79cb64905!2sPRINGLES%20RUGBY%20CLUB%20%22Los%20Carneros%22!5e0!3m2!1ses!2sar!4v1627019041468!5m2!1ses!2sar" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3145.183330596899!2d-61.348311384676705!3d-37.97285067972395!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95eccb233751d057%3A0xfdadcd79cb64905!2sPRINGLES%20RUGBY%20CLUB%20%22Los%20Carneros%22!5e0!3m2!1ses!2sar!4v1627019041468!5m2!1ses!2sar" allowfullscreen="" loading="lazy"></iframe>
                 <h3>Referencias</h3>
                 <p>Prof José García de la Calle 2299, Coronel Pringles, Provincia de Buenos Aires</p>
-            </article>
-
+            <article>    
         </section>
 
         <section>
             img de auspiciantes <!-- si es que tiene -->
         </section>
     </main>
+
     <footer>
         
-        <article>
-            <a href="../index.html"><img src="../assets/img/CarneroLineas.svg" alt="Logo Instituto"></a>
+        <article class="FooterNav">
             <ul>
-                <li><a href="../index.html">Incio</a></li>
-                <li><a href="Historia.html">Historia</a></li>
-                <li><a href="Rugby.html">Rugby</a></li>
-                <li><a href="Socios.html">Socios</a></li>
-                <li><a href="Contacto.html">Contacto</a></li>
+                <li><a href="index.html">Incio</a></li>
+                <li><a href="view/Historia.html">Historia</a></li>
+                <li><a href="view/Rugby.html">Rugby</a></li>
+                <li><a href="view/Socios.html">Socios</a></li>
+                <li><a href="view/Contacto.html">Contacto</a></li>
             </ul>
-            Compani Name derechos reservados
         </article>
 
-        <article>
-            icon + correo
-             telefono
-             direccion
+        <article class="FooterContact">
+            <div>
+                <i class="fas fa-envelope"></i>
+                <p>prensapringlesrugbyclub@gmail.com</p>
+            </div>
+            <div>
+                <i class="fas fa-map-marker-alt"></i>
+                <p>Prof José García de la Calle 2299</p>
+            </div>
+            <p><strong>Copyright ©</strong> Pringles Rubgby Club - 2021</p>
         </article>
 
-        <article>
-            abaut me
-            paragraf
-            <a href="https://www.facebook.com/pringlesrubgbyclub/" target="_blank"><img src="../assets/img/facebook.svg" alt="Logo Facebook"></a>
-            <a href="https://www.instagram.com/pringlesrugbyclub/?hl=es-la" target="_blank"><img src="../assets/img/instagram.svg" alt="Logo Instagram"></a>
-            <a href="https://twitter.com/pringlesrugby" target="_blank"><img src="../assets/img/twitter.svg" alt="Logo Twitter"></a>
+        <article class="FooterPresentacion">
+            <div>    
+                <h3>Pringles Rugby Club</h3>
+                <p>Gracias a todos los integrantes del club, por su apoyo tan importante para nosotros.</p>
+            </div>
+            <div>
+                <a href="https://www.facebook.com/pringlesrubgbyclub/" target="_blank"><img src="../assets/img/facebook.svg" alt="Logo Facebook" class="RedSocial"></a>
+                <a href="https://www.instagram.com/pringlesrugbyclub/?hl=es-la" target="_blank"><img src="../assets/img/instagram.svg" alt="Logo Instagram" class="RedSocial"></a>
+                <a href="https://twitter.com/pringlesrugby" target="_blank"><img src="../assets/img/twitter.svg" alt="Logo Twitter" class="RedSocial"></a>
+            </div>
         </article>
-
     </footer>
 
 </body>
