@@ -134,16 +134,31 @@ footer article a img{
 .FooterNav{
     display: flex;
     flex-wrap: wrap;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
 
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-row: auto;
+
+
+}
+
+/* logo club */
+
+.FooterNav img{
+    width: 15em;
+    border-radius: 50%;
+    justify-self: center;
+    align-self: center;
 }
 
 /* menu de navegacion footer */
 
 .FooterNav ul{
-
+    justify-self: center;
+    align-self: center;
 }
 
 .FooterNav ul li{
@@ -185,12 +200,12 @@ footer article a img{
 
 /* icon correo */
 .fa-envelope{
-    color: #712e2e;
+    color: rgba(31, 28, 28, 0.876);
 }
 
 /* icon lugar */
 .fa-map-marker-alt{
-    color: #406340;
+    color: rgba(31, 28, 28, 0.876);
 }
 
 .FooterContact div p{
@@ -243,4 +258,295 @@ footer article a img{
 
 .FooterPresentacion div a{
     
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+    header{
+        padding: 1em;
+    }
+
+    /* Estilo a los logos (Carnero y redes sociales) */
+    header a{
+
+    }
+
+    header a img{
+
+    }
+
+    /* Estilo al menu de listas */
+
+    header nav{
+        
+    }
+
+    header nav ul{
+
+    }
+
+    header nav ul li{
+    }
+
+    header nav ul li a{
+    }
+
+    header nav ul li a:hover{
+    }
+
+    /* Estilo DIV redes sociales */
+
+    header div{
+        display: none;
+    }
+
+    /* -- MAIN -- */
+
+    main{
+        
+    }
+
+    /* -- FOOTER -- */
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        grid-gap: 1em;
+        
+        padding: 2em 0;
+    }
+
+    footer article{
+    }
+
+    footer article a img{
+
+    }
+
+    /* -- Primer Article -- */
+
+    .FooterNav{
+        display: none;
+    }
+
+    /* logo club */
+
+    .FooterNav img{
+    }
+
+    /* menu de navegacion footer */
+
+    .FooterNav ul{
+    }
+
+    .FooterNav ul li{
+    }
+
+    .FooterNav ul li a{
+        
+    }
+
+    .FooterNav ul li a:hover{
+    }
+
+    /* -- Segundo Article -- */
+
+    .FooterContact{
+        grid-row: 3;
+    }
+
+    .FooterContact div{
+        padding: 0 0;
+    }
+
+    .FooterContact div i{
+    }
+
+    /* icon correo */
+    .fa-envelope{
+    }
+
+    /* icon lugar */
+    .fa-map-marker-alt{
+    }
+
+    .FooterContact div p{
+        padding: 0.5em;
+    }
+
+    /* Copyrigth */
+
+    .FooterContact p{
+        padding: 0.5em 0;
+    }
+
+    /* -- Tercero Article -- */
+
+    .FooterPresentacion{
+    }
+
+    .FooterPresentacion div{
+        
+    }
+
+    .FooterPresentacion div h3{
+    }
+
+    .FooterPresentacion div p{
+    }
+
+    .FooterPresentacion div a{ 
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    header{
+    }
+    
+    /* Estilo a los logos (Carnero y redes sociales) */
+    header a{
+    
+    }
+    
+    header a img{
+        width: 5em;
+        padding: 0 1em 0 1em;
+    }
+    
+    /* Estilo al menu de listas */
+    
+    header nav{
+        
+    }
+    
+    header nav ul{
+    
+    }
+    
+    header nav ul li{
+        display: block;
+    }
+    
+    header nav ul li a{
+        font-size: 1.5em;
+        font-weight: 600;
+    }
+    
+    header nav ul li a:hover{
+    }
+    
+    /* Estilo DIV redes sociales */
+    
+    header div{
+        display: none;
+    }
+    
+    /* -- MAIN -- */
+    
+    main{
+        
+    }
+
+    /* -- FOOTER -- */
+
+    footer{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: auto;
+
+        grid-gap: 1em;
+        
+        padding: 2em 0;
+    }
+
+    footer article{
+    }
+
+    footer article a img{
+    }
+
+    /* -- Primer Article -- */
+
+    .FooterNav{
+        display: none;
+    }
+
+    /* logo club */
+
+    .FooterNav img{
+    }
+
+    /* menu de navegacion footer */
+
+    .FooterNav ul{
+    }
+
+    .FooterNav ul li{
+    }
+
+    .FooterNav ul li a{
+        
+    }
+
+    .FooterNav ul li a:hover{
+    }
+
+    /* -- Segundo Article -- */
+
+    .FooterContact{
+        grid-row: 3;
+    }
+
+    .FooterContact div{
+        padding: 0 0;
+    }
+
+    .FooterContact div i{
+        font-size: 1.2em;
+    }
+
+    /* icon correo */
+    .fa-envelope{
+    }
+
+    /* icon lugar */
+    .fa-map-marker-alt{
+    }
+
+    .FooterContact div p{
+        padding: 0.7em;
+
+        font-size: 1em;
+    }
+
+    /* Copyrigth */
+
+    .FooterContact p{
+        padding: 0.5em 0;
+    }
+
+    /* -- Tercero Article -- */
+
+    .FooterPresentacion{
+    }
+
+    .FooterPresentacion div{
+        
+    }
+
+    .FooterPresentacion div h3{
+        font-size: 1.3em;
+    }
+
+    .FooterPresentacion div p{
+        font-size: 1em;
+    }
+
+    .FooterPresentacion div a{ 
+        font-size: 0.7em;
+    }
 }

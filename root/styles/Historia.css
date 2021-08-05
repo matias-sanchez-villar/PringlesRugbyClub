@@ -29,7 +29,7 @@ h1{
 
 section:first-child article p{
     color: rgb(0, 0, 0);
-    font-size: 1.5rem;
+    font-size: 1.4rem;
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     letter-spacing: 0.1em;
@@ -133,4 +133,130 @@ section:first-child article p{
     letter-spacing: 0.1em;
 
     text-align: end;
+}
+
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+    section:first-child{
+    }
+    
+    section:first-child article{
+    }
+    
+    h1{
+    }
+    
+    section:first-child article p{
+    }
+    
+    .Paragraf::first-letter{
+    }
+    
+    /* -- Logo de separacion -- */
+    
+    .SeparacionLogo{
+    }
+    
+    .Amarillo{
+    }
+    
+    .SeparacionLogo img{
+    }
+    
+    .Azul{
+    }
+    
+    /* -- Comision Directiva -- */
+    
+    .ComisionDirectiva{
+    }
+    
+    .ComisionDirectiva h2{
+    }
+    
+    .ComisionDirectiva div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(5em, auto);
+    
+        grid-gap: 1.5em;
+
+        margin-bottom: 3em;
+    }
+    
+    .ComisionDirectiva article{
+    }
+    
+    .ComisionDirectiva article h3{
+    }
+    
+    .ComisionDirectiva article strong{
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    section:first-child{
+    }
+    
+    section:first-child article{
+    }
+    
+    h1{
+        font-size: 1.5em;
+    }
+    
+    section:first-child article p{
+        font-size: 1.2em;
+    }
+    
+    .Paragraf::first-letter{
+    }
+    
+    /* -- Logo de separacion -- */
+    
+    .SeparacionLogo{
+    }
+    
+    .Amarillo{
+    }
+    
+    .SeparacionLogo img{
+    }
+    
+    .Azul{
+    }
+    
+    /* -- Comision Directiva -- */
+    
+    .ComisionDirectiva{
+    }
+    
+    .ComisionDirectiva h2{
+        font-weight: 600;
+        font-size: 1.3em;
+    }
+    
+    .ComisionDirectiva div{
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-auto-rows: minmax(5em, auto);
+    
+        grid-gap: 1.5em;
+
+        margin-bottom: 3em;
+    }
+    
+    .ComisionDirectiva article{
+    }
+    
+    .ComisionDirectiva article h3{
+        font-weight: 500;
+        font-size: 1.2em;
+    }
+    
+    .ComisionDirectiva article strong{
+        font-size: 1.2em;
+    }
 }
