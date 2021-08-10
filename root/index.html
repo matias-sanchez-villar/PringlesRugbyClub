@@ -12,13 +12,14 @@
         
     <script src="https://kit.fontawesome.com/2608d06942.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
     <link rel="stylesheet" type="text/css" href="styles/General.css">
     <link rel="stylesheet" type="text/css" href="styles/Index.css">
-
 </head>
 <body>
     
-    <header class="animate__pulse">
+    <header>
         <a href="index.html"><img src="assets/img/CarneroLineas.svg" alt="Logo Instituto" class="Logo"></a>
         <nav>
             <ul>
@@ -35,8 +36,8 @@
             <a href="https://twitter.com/pringlesrugby" target="_blank"><img src="assets/img/twitter.svg" alt="Logo Twitter" class="RedSocial"></a>
         </div>
     </header>
-    <main class="animate__pulse">
-        <section class="carrusel">
+    <main>
+        <section class="carrusel animate__animated animate__bounce">
             <h1>Pringles Rugby Club</h1>
             <img src="assets/img/CarneroLineas.svg" class="imagenCarrusel" alt="Logo Instituto" class="Logo">
             <p>
@@ -69,6 +70,8 @@
                 <p>No existe nada más lindo que llevar puestos los colores del club</p>
                 <a href="https://www.facebook.com/pringlesrubgbyclub/photos/a.10157085471771970/10159166669736970/?type=3">Ver mas</a>
             </article>
+
+            <h1 class="animate__animated animate__bounce">An animated element</h1>
 
         </section>
 
@@ -113,6 +116,11 @@
             </div>
         </article>
     </footer>
+
+    <script src="script/wow.min.js"></script>
+    <script> 
+        new WOW().init();
+    </script>
 
 </body>
 </html>
