@@ -45,7 +45,7 @@ header{
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.089);
     backdrop-filter: blur( 6.5px );
     -webkit-backdrop-filter: blur( 6.5px );
-    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    border-bottom: 1px solid rgb(0, 5, 65);
 
     padding: 1.5em;
 }
@@ -112,7 +112,11 @@ footer{
     color: rgb(0, 5, 65);
     font-family: 'Montserrat', sans-serif;
     
-    background: rgba(240, 203, 36, 0.849);
+    background: #cac531e8;
+    background: -webkit-linear-gradient(to top, #F3F9A7, #cac531e8);
+    background: linear-gradient(to top, #F3F9A7, #cac531e8); 
+    
+    border-top: 2px solid rgb(0, 5, 65);
 
     padding: 2em 0;
 }

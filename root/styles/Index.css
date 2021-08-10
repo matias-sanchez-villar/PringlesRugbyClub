@@ -1,0 +1,108 @@
+/* esto es la presentacion */
+
+.carrusel{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 6em;
+}
+
+.carrusel h1{
+    color: rgb(0, 5, 65);
+    font-size: 4rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 900;
+    letter-spacing: 0.1em;
+}
+
+.imagenCarrusel{
+    width: 20em;
+    padding: 4em;
+}
+
+.carrusel p{
+    color: rgb(0, 5, 65);
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.carrusel div{
+    align-self: flex-end;
+    padding: 4em;
+}
+
+.carrusel div a{
+    padding: 0.4em;
+}
+
+.carrusel div a img{
+    width: 4em;
+}
+
+/* cart de eventos */
+
+.card{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: auto;
+    justify-content: space-around;
+    align-items: center;
+
+    margin: 3em;
+}
+
+.card article{
+    text-align: center;
+}
+
+.card article img{
+    width: 40em;
+    height: 40em;
+    
+    border: 4px solid black;
+}
+
+.card article h2{
+    padding: 1em 0 0.5em;
+
+    color: rgb(0, 5, 65);
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 700;
+    letter-spacing: 0.1em;
+}
+
+.card article p{
+    padding: 0.5em;
+
+    color: rgb(0, 5, 65);
+    font-size: 1rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+}
+
+.card article a{
+    margin: 3em;
+
+    color: rgb(0, 5, 65);
+    font-size: 1.5rem;
+    font-family: 'Montserrat', sans-serif;
+    font-style: italic;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    box-shadow: inset 0 -1.3px rgba(240, 203, 36, 0.753);
+}
+
+.card article a:hover{
+    box-shadow: inset 0 -3px rgba(240, 203, 36, 0.849);
+    color: rgba(0, 6, 56, 0.808);
+}
