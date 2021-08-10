@@ -59,3 +59,76 @@ main section article p{
 
     padding: 1em 0 0.5em 0;
 }
+
+@media only screen and (min-width: 768px) and (max-width: 1023px)
+{
+    main{
+
+    }
+    
+    main h1{
+        font-size: 3rem;
+    
+        padding: 1em 0 0.5em 0;
+    }
+    
+    main section{
+    }
+    
+    main section img{
+    }
+    
+    main section article{
+    
+    }
+    
+    main section article h2{
+        font-size: 1.5rem;
+    
+        padding: 0;
+    }
+    
+    main section article p{
+        font-size: 1.5rem;
+    
+        padding: 1em 0 0em 0;
+    }
+}
+
+@media only screen and (max-width: 768px)
+{
+    main{
+
+    }
+    
+    main h1{
+        font-size: 2.5em;
+    
+        padding: 1.5em;
+    }
+    
+    main section{
+        grid-template-columns: 1fr;
+        grid-gap: 0em;
+    
+        padding: 2em;
+    }
+    
+    main section img{
+    }
+    
+    main section article{
+    
+    }
+    
+    main section article h2{
+        font-size: 1.5rem;
+    
+        padding: 0.5em;
+    }
+    
+    main section article p{
+        font-size: 1.5rem;
+        padding: 0;
+    }
+}
