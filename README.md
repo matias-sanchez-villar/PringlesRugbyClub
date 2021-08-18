@@ -1,6 +1,6 @@
 # PringlesRugbyClub
 
-Creación de un sitio web deportivo, con HTML, CSS, SAS, JS.
+Creación de un sitio web deportivo, con HTML, CSS, SASS, JS.
 
 ## Proyecto final Coder House
 
