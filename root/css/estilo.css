@@ -1,6 +1,48 @@
-div {
-  padding: 3em; }
-  div h1 {
-    color: black; }
-  div p {
-    color: aqua; }
+.instalaciones {
+  margin: 2em;
+  text-align: center; }
+  .instalaciones__canchas {
+    letter-spacing: 0.1em;
+    color: #000541;
+    padding: 0 0 2em 0; }
+    .instalaciones__canchas h2 {
+      text-align: center;
+      color: #000541;
+      font-size: 3rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      padding: 0.5em; }
+    .instalaciones__canchas p {
+      text-align: center;
+      color: #151516;
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500; }
+  .instalaciones__salon {
+    box-shadow: inset 0 1.3px rgba(240, 203, 36, 0.753);
+    letter-spacing: 0.1em;
+    color: #000541;
+    padding: 0 0 2em 0; }
+    .instalaciones__salon h2 {
+      text-align: center;
+      color: #000541;
+      font-size: 3rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 600;
+      padding: 0.5em; }
+    .instalaciones__salon p {
+      text-align: center;
+      color: #151516;
+      font-size: 1.5rem;
+      font-family: 'Montserrat', sans-serif;
+      font-weight: 500; }
+  .instalaciones__img {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 1em;
+    grid-auto-rows: minmax(20px); }
+    .instalaciones__img img {
+      width: 100%; }
+    @media only screen and (max-width: 768px) {
+      .instalaciones__img {
+        display: none; } }

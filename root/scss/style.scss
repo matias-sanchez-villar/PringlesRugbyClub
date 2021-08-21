@@ -1,9 +1,66 @@
-div{
-    h1{
-    color: black;
+$ColorLetra: rgb(0, 5, 65);
+$ColorAmarillo: rgb(240,201,36);
+
+.instalaciones{
+    margin: 2em;
+    text-align: center;
+    &__canchas{
+        letter-spacing: 0.1em;
+        color: $ColorLetra;
+        h2{
+            text-align: center;
+            color: rgb(0, 5, 65);
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+
+            padding: 0.5em;
+        }
+        p{
+            text-align: center;
+            color: rgb(21, 21, 22);
+            font-size: 1.5rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+        padding: 0 0 2em 0;
     }
-    p{
-        color: aqua;
+
+    &__salon{
+        box-shadow: inset 0 1.3px rgba(240, 203, 36, 0.753);
+        letter-spacing: 0.1em;
+        color: $ColorLetra;
+        h2{
+            text-align: center;
+            color: rgb(0, 5, 65);
+            font-size: 3rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 600;
+
+            padding: 0.5em;
+        }
+        p{
+            text-align: center;
+            color: rgb(21, 21, 22);
+            font-size: 1.5rem;
+            font-family: 'Montserrat', sans-serif;
+            font-weight: 500;
+        }
+        padding: 0 0 2em 0;
     }
-    padding: 3em;
+
+    &__img{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-gap: 1em;
+        grid-auto-rows: minmax(20px);
+        img{
+            width: 100%;
+        }
+
+        @media only screen and (max-width: 768px)
+        {
+            display: none;
+        }
+    }
 }
