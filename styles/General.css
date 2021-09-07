@@ -119,7 +119,7 @@ footer{
     
     border-top: 2px solid rgb(0, 5, 65);
 
-    padding: 2em 0;
+    padding: 2em 0 0 0;
 }
 
 footer article{
@@ -321,7 +321,7 @@ footer article a img{
 
         grid-gap: 1em;
         
-        padding: 2em 0;
+        padding: 2em 0 0 0;
     }
 
     footer article{
@@ -466,7 +466,7 @@ footer article a img{
 
         grid-gap: 1em;
         
-        padding: 2em 0;
+        padding: 2em 0 0 0;
     }
 
     footer article{
