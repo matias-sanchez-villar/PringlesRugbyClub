@@ -13,6 +13,8 @@
 
     <title>Pringles Rugby Club - Instalaciones</title>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="shortcut icon" type="icono/ico" href="../assets/img/CarneroLineas.ico" />
     <link rel="shortcut icon" type="image/png" href="../assets/img/CarneroLineas.png" />
 
@@ -67,9 +69,9 @@
     </nav>
 
     
-    <main class="instalaciones Contacto wow animate__animated animate__bounce">
+    <main class="instalaciones Contacto">
 
-        <section class="instalaciones__canchas">
+        <section data-aos="zoom-in" data-aos-duration="2000" class="instalaciones__canchas">
             <h2>Canchas</h2>
             <p>Contamos con 3 canchas, Principal, inferiores y de entrenamiento</p>
             <p>La cancha principal, es la utilizada para los partidos oficiales de la liga y cuenta con las medidas reglamentarias.</p>
@@ -77,7 +79,7 @@
             <p>La cancha de entrenamiento, es la cancha donde entrenan las categorias mayores de club.</p>
         </section>
 
-        <section class="instalaciones__salon">
+        <section data-aos="zoom-in" data-aos-duration="2000" class="instalaciones__salon">
             <h2>Salon</h2>
             <p>Contamos con un salor principal, vestuario y gimnasio</p>
             <p>El saldon principal o quincho, cuenta con su respectiva cocina, baños y su salon comedor</p>
@@ -85,9 +87,9 @@
         </section>
 
         <section class="instalaciones__img">
-            <img src="../assets/img/Canchita.jpg" alt="">
-            <img src="../assets/img/H.jpg" alt="">
-            <img src="../assets/img/quinchoDentro.jpg" alt="">
+            <img data-aos="flip-left" data-aos-duration="3000" src="../assets/img/Canchita.jpg" alt="">
+            <img data-aos="flip-left" data-aos-duration="3000" src="../assets/img/H.jpg" alt="">
+            <img data-aos="flip-left" data-aos-duration="3000" src="../assets/img/quinchoDentro.jpg" alt="">
         </section>
 
     </main>
@@ -129,11 +131,10 @@
         </article>
     </footer>
 
-    <script src="script/wow.min.js"></script>
-    <script> 
-        new WOW().init();
-    </script>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>

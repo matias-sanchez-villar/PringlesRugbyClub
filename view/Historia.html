@@ -22,6 +22,8 @@
 
     <script src="https://kit.fontawesome.com/2608d06942.js" crossorigin="anonymous"></script>
 
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
 
@@ -72,7 +74,7 @@
     </nav>
 
     <main>
-        <section class="wow animate__animated animate__bounce historia">
+        <section data-aos="zoom-in" data-aos-duration="2000" class="historia">
             <article>
                 <h1>Historia</h1>
                 <p class="Paragraf historia__paragraf">
@@ -98,12 +100,12 @@
                 </p>
             </article>
         </section>
-        <section class="SeparacionLogo Logo">
+        <section data-aos="flip-left" data-aos-duration="2000" class="SeparacionLogo Logo">
             <hr class="logo--Amarillo Amarillo">
             <img src="../assets/img/CarneroLineas.svg" alt="Logo del Club">
             <hr class="logo--Azul Azul">
         </section>
-        <section class="ComisionDirectiva">
+        <section data-aos="zoom-in" data-aos-duration="2000" class="ComisionDirectiva">
             <h2>COMISIÓN DIRECTIVA 2021 - 2022</h2>
             <div>
                 <article>
@@ -196,10 +198,10 @@
         </article>
     </footer>
 
-    <script src="../script/wow.min.js"></script>
-    <script> 
-        new WOW().init();
-    </script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
